@@ -9,8 +9,8 @@ jobs:
       matrix:
         os:
           - ubuntu-latest
-          - windows-latest
-          - macOS-latest
+          # - windows-latest
+          # - macOS-latest
     env:
       NIM_VERSION: 1.0.4
     steps:
